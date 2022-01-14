@@ -2,7 +2,7 @@
   "name": "gitmoji",
   "version": "1.0.0",
   "description": "Add some funny emojis to your boring commit",
-  "main": "out/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,8 @@
     "git"
   ],
   "author": "ManuelMaciel",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  }
 }
